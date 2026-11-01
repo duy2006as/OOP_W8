@@ -1,0 +1,15 @@
+D:\OOP\W8\bin\Debug\net10.0\DeviceManagement.exe
+D:\OOP\W8\bin\Debug\net10.0\DeviceManagement.deps.json
+D:\OOP\W8\bin\Debug\net10.0\DeviceManagement.runtimeconfig.json
+D:\OOP\W8\bin\Debug\net10.0\DeviceManagement.dll
+D:\OOP\W8\bin\Debug\net10.0\DeviceManagement.pdb
+D:\OOP\W8\obj\Debug\net10.0\DeviceManagement.GeneratedMSBuildEditorConfig.editorconfig
+D:\OOP\W8\obj\Debug\net10.0\DeviceManagement.AssemblyInfoInputs.cache
+D:\OOP\W8\obj\Debug\net10.0\DeviceManagement.AssemblyInfo.cs
+D:\OOP\W8\obj\Debug\net10.0\DeviceManagement.csproj.CoreCompileInputs.cache
+D:\OOP\W8\obj\Debug\net10.0\DeviceManagement.sourcelink.json
+D:\OOP\W8\obj\Debug\net10.0\DeviceManagement.dll
+D:\OOP\W8\obj\Debug\net10.0\refint\DeviceManagement.dll
+D:\OOP\W8\obj\Debug\net10.0\DeviceManagement.pdb
+D:\OOP\W8\obj\Debug\net10.0\DeviceManagement.genruntimeconfig.cache
+D:\OOP\W8\obj\Debug\net10.0\ref\DeviceManagement.dll
