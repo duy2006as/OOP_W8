@@ -32,15 +32,16 @@ public class ProjectorRemote : TeachingDevice
         }
 
         // Cập nhật pin thiết bị
+        int oldLevel = BatteryLevel;
         BatteryLevel = newLevel;
 
-        if (newLevel == 0)
+         if (newLevel == 0)
+         {
+           RaiseAlert($"Điều khiển máy chiếu hết pin hoàn toàn (0%)!", AlertSeverity.Critical);
+         }
+         else if (newLevel < 20 && oldLevel >= 20)
         {
-            RaiseAlert($"Điều khiển máy chiếu hết pin hoàn toàn (0%)!", AlertSeverity.Critical);
-        }
-        else if (newLevel < 20 && BatteryLevel >= 20)
-        {
-            RaiseAlert($"Pin điều khiển máy chiếu yếu ({newLevel}% < 20%)!", AlertSeverity.Warning);
-        }
-    }
+    RaiseAlert($"Pin điều khiển máy chiếu yếu ({newLevel}% < 20%)!", AlertSeverity.Warning);
+         }
+}
 }
