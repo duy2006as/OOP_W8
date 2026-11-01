@@ -17,7 +17,7 @@ public class MaintenanceService
     public void HandleCriticalAlert(object? sender, DeviceAlertEventArgs e)
     {
         // Kiểm tra mức độ cảnh báo để tạo yêu cầu bảo trì
-        if (e.Severity == AlertSeverity.Critical)
+        if (e.Severity != AlertSeverity.Critical)
         {
             return;
         }
