@@ -44,7 +44,7 @@ public class DeviceMonitoringCoordinator : IDisposable
             device.AlertRaised += maintenanceService.HandleCriticalAlert;
         }
 
-        // Đánh dấu trạng thái sau khi hoàn tất đăng ký
+       isSubscribed = true;
     }
 
     // Hủy đăng ký các handler đã gắn
